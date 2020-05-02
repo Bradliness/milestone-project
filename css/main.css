@@ -1,6 +1,12 @@
 /***** BASE STYLES *****/
 body{
   font-family: 'Libre Baskerville', serif;
+  font-family: 'Fugaz One', cursive;
+  font-family: 'Sigmar One', cursive;
+  font-family: 'Sriracha', cursive;
+
+
+
 
 }
  #about, #portfolio, #contact {
@@ -13,7 +19,7 @@ body{
 .full-width {
     width: 1200px;
     margin: 0 auto;
-    background-color: #9fcd5f;
+    background-color: #576e49;
 }
 .half-width{
     width: 600px;
@@ -23,6 +29,14 @@ body{
     width:400px;
     float: left;
 }
+.h3-container{
+   text-align: center;
+}
+.my-bad-pic-container{
+align: center;
+}
+
+
 /*****header*****/
 header {
     height: 120px;
@@ -47,31 +61,42 @@ nav ul li a {
     color: #824282;
     padding-left: 30px;
     padding-right: 30px;
-    
+
 }
 
 h1 {
   width:750px;
   font-size:48px;
   color:#822282;
+  font-family: 'Sriracha', cursive;
   padding-top: 100px;
   padding-left:200px;
   text-align:center;
 }
 span {
+  color:#427519;
 
 }
 h2 {
-
+text-align: center;
+color:#822282;
   width: 100%;
   height:100px;
     float:left;
-    padding-top: 100px;
-    text-align:center;
-
 }
 img{
-    padding-left: 370px;
+    padding-left: 570px;
+
+}
+h3{
+color:#822282;
+    padding-bottom: 20px;
+  }
+p{
+  color:#822282;
+  width:600px;
+  text-align: center;
+
 }
 body{
   background: #94d4e8;
