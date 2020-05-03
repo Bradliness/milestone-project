@@ -1,13 +1,12 @@
 /***** BASE STYLES *****/
+
+
 body{
   font-family: 'Libre Baskerville', serif;
   font-family: 'Fugaz One', cursive;
   font-family: 'Sigmar One', cursive;
   font-family: 'Sriracha', cursive;
-
-
-
-
+  background: #54706f;
 }
  #about, #portfolio, #contact {
     height: 600px;
@@ -23,7 +22,9 @@ body{
 }
 .half-width{
     width: 600px;
-    float: left;
+    float:left;
+    margin:0 auto;
+    text-align:center;
 }
 .third-width{
     width:400px;
@@ -41,15 +42,14 @@ align: center;
 header {
     height: 120px;
 }
+
+
 nav {
     float: right;
     padding: 1em;
-    background-color:lightgrey;
-    border-radius: 20px;
+    background-color:#d5e6ba;
+    border-radius: 40px;
     border-width:4px;
-
-
-
 }
 nav ul li {
     display: inline-block;
@@ -59,23 +59,46 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #824282;
-    padding-left: 30px;
+    padding-left: 25px;
     padding-right: 30px;
 
+  }
+li:hover {
+  padding: -16px;
+  background-color:#a1d948;
+  font-size:18px;
+  border-style: groove,16px;
+  border-radius:12px;
 }
 
 h1 {
-  width:750px;
+  width:780px;
   font-size:48px;
   color:#822282;
   font-family: 'Sriracha', cursive;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-left:200px;
   text-align:center;
 }
-span {
-  color:#427519;
+span:{
+}
+ .glow {
+  font-size: 48px;
+  color: #427518;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #427519, 0 0 20px #427519, 0 0 30px #cbf542, 0 0 40px #cbf542, 0 0 50px #cbf542, 0 0 60px #7be382, 0 0 70px #7be382;
+  }
+
+  to {
+    text-shadow: 0 0 20px #69cc4e, 0 0 30px #a3e843, 0 0 40px #a3e843, 0 0 50px #a3e843, 0 0 60px #a3e843, 0 0 70px #a3e843, 0 0 80px #a3e843;
+  }
 }
 h2 {
 text-align: center;
@@ -86,17 +109,16 @@ color:#822282;
 }
 img{
     padding-left: 570px;
-
 }
+
 h3{
 color:#822282;
     padding-bottom: 20px;
   }
-p{
+
+.about-me-container{
   color:#822282;
   width:600px;
-  text-align: center;
-
+  margin: 0 auto;
+  display:center;
 }
-body{
-  background: #94d4e8;
